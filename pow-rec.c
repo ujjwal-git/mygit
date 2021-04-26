@@ -10,14 +10,16 @@ int main(void){
     printf("This program prints power of a no. \n");
 
     printf("Enter base no.: \n");
-    scanf("%d \n", &base);
+    scanf("%d", &base);
 
     printf("Enter exponent of base: \n");
-    scanf("%d \n", &exponent);
+    scanf("%d", &exponent);
 
     power = power_fun(base , exponent);
 
-    printf("Here is the power of %d raised to %d = \n", base, exponent, power);
+    printf("Here is the power of %d raised to %d = %d \n", base, exponent, power);
+
+    return 0;
 
 }
 
