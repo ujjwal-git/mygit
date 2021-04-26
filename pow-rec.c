@@ -16,7 +16,6 @@ int main(void){
     scanf("%d", &exponent);
 
     power = power_fun(base , exponent);
-
     printf("Here is the power of %d raised to %d = %d \n", base, exponent, power);
 
     return 0;
